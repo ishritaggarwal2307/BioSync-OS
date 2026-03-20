@@ -12,9 +12,9 @@ BioSync OS is a **passive Human Operating System** that converts real-time biolo
 
 Unlike traditional mental health tools that rely on manual input, BioSync works silently in the background by analyzing:
 
-- Facial blood flow (rPPG)
-- Voice stress patterns (Vocal Jitter)
-- Semantic intent (AI understanding)
+- Facial blood flow (rPPG)  
+- Voice stress patterns (Vocal Jitter)  
+- Semantic intent (AI understanding)  
 
 ---
 
@@ -26,7 +26,7 @@ Humans operate without real-time feedback on their cognitive state.
 - Productivity drops due to cognitive overload  
 - Existing tools require manual tracking (high friction)  
 
-👉 Result: Loss of focus, efficiency, and mental clarity  
+👉 Result: **Loss of focus, efficiency, and mental clarity**
 
 ---
 
@@ -37,7 +37,7 @@ BioSync OS introduces **passive bio-sensing + real-time intelligence**
 - Detects stress using webcam (rPPG)  
 - Analyzes voice for physiological stress signals  
 - Uses AI to interpret intent and context  
-- Dynamically adapts system behavior  
+- Dynamically adapts system behavior in real-time  
 
 ---
 
@@ -51,28 +51,26 @@ BioSync combines three layers of intelligence:
 - **Audio Layer** → vocal jitter analysis  
 - **Semantic Layer** → AI intent understanding  
 
-👉 Output: Real-time **Cognitive Stress Score**
+👉 Output: **Real-time Cognitive Stress Score**
 
 ---
 
-##  ⚙️ System Architecture
+## ⚙️ System Architecture
 
 ```mermaid
 flowchart LR
-    A["User Input: Camera and Mic"] --> B["MediaPipe Face Detection"]
-    B --> C["ROI Extraction Forehead"]
-    C --> D["rPPG Signal Processing"]
+    A["User Input"] --> B["Vision Module"]
+    A --> C["Audio Module"]
+    A --> D["Text Module"]
 
-    A --> E["Audio Processing"]
-    E --> F["Vocal Jitter Detection"]
+    B --> E["rPPG Extraction"]
+    C --> F["Vocal Analysis"]
+    D --> G["Semantic AI"]
 
-    A --> G["Text Input"]
-    G --> H["AI Semantic Analysis"]
+    E --> H["Stress Engine"]
+    F --> H
+    G --> H
 
-    D --> I["Stress Engine"]
-    F --> I
-    H --> I
-
-    I --> J["State Machine"]
-    J --> K["AI Response Engine"]
-    K --> L["UI Feedback System"]
+    H --> I["State Machine"]
+    I --> J["AI Response System"]
+    J --> K["Adaptive UI"]
