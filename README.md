@@ -55,24 +55,24 @@ BioSync combines three layers of intelligence:
 
 ---
 
-## ⚙️ System Architecture
+##  ⚙️ System Architecture
 
 ```mermaid
 flowchart LR
-    A[User Input: Camera + Mic] --> B[MediaPipe Face Detection]
-    B --> C[ROI Extraction (Forehead)]
-    C --> D[rPPG Signal Processing]
+    A["User Input: Camera and Mic"] --> B["MediaPipe Face Detection"]
+    B --> C["ROI Extraction Forehead"]
+    C --> D["rPPG Signal Processing"]
 
-    A --> E[Audio Processing]
-    E --> F[Vocal Jitter Detection]
+    A --> E["Audio Processing"]
+    E --> F["Vocal Jitter Detection"]
 
-    A --> G[Text Input]
-    G --> H[AI Semantic Analysis]
+    A --> G["Text Input"]
+    G --> H["AI Semantic Analysis"]
 
-    D --> I[Stress Engine]
+    D --> I["Stress Engine"]
     F --> I
     H --> I
 
-    I --> J[State Machine]
-    J --> K[AI Response Engine]
-    K --> L[UI Feedback System]
+    I --> J["State Machine"]
+    J --> K["AI Response Engine"]
+    K --> L["UI Feedback System"]
