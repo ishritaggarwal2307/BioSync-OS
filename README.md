@@ -2,7 +2,7 @@
 
 > We don’t ask how you feel. We measure it.
 
-👥 Team: **Newton's Apple**
+👥 **Team:** Newton's Apple  
 
 ---
 
@@ -12,9 +12,9 @@ BioSync OS is a **passive Human Operating System** that converts real-time biolo
 
 Unlike traditional mental health tools that rely on manual input, BioSync works silently in the background by analyzing:
 
-- Facial blood flow (rPPG)  
-- Voice stress patterns (Vocal Jitter)  
-- Semantic intent (AI understanding)  
+- Facial blood flow (**rPPG**)  
+- Voice stress patterns (**Vocal Jitter**)  
+- Semantic intent (**AI understanding**)  
 
 ---
 
@@ -24,9 +24,9 @@ Humans operate without real-time feedback on their cognitive state.
 
 - Stress remains invisible until burnout  
 - Productivity drops due to cognitive overload  
-- Existing tools require manual tracking (high friction)  
+- Existing tools require manual tracking (**high friction**)  
 
-👉 Result: **Loss of focus, efficiency, and mental clarity**
+👉 **Result:** Loss of focus, efficiency, and mental clarity  
 
 ---
 
@@ -34,7 +34,7 @@ Humans operate without real-time feedback on their cognitive state.
 
 BioSync OS introduces **passive bio-sensing + real-time intelligence**
 
-- Detects stress using webcam (rPPG)  
+- Detects stress using webcam (**rPPG**)  
 - Analyzes voice for physiological stress signals  
 - Uses AI to interpret intent and context  
 - Dynamically adapts system behavior in real-time  
